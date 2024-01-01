@@ -6,15 +6,18 @@ Calculadora simples para auxiliar no processo de Declaração (Anual) de Imposto
 IRPF segue o formato **simplificado**, empregando dedução padrão de sobre o total dos rendimentos tributáveis auferidos durante o ano de 2023.
 # Configuração Recomendada
 
-Rust: linguagem de programação de sistemas modernos conhecida por sua forte ênfase na segurança da memória e abstrações de custo zero.
+[Rust](https://rust-book.cs.brown.edu/ch01-01-installation.html): linguagem de programação de sistemas modernos conhecida por sua forte ênfase na segurança da memória e abstrações de custo zero.
 
-Cargo: Gerenciador de pacotes e ferramenta de construção do Rust, agilizando o processo de gerenciamento de dependências e construção de projetos com facilidade.
+[Cargo](https://rust-book.cs.brown.edu/ch01-03-hello-cargo.html#hello-cargo): Gerenciador de pacotes e ferramenta de construção do Rust, agilizando o processo de gerenciamento de dependências e construção de projetos com facilidade.
 
 # Dependências & Bibliotecas utilizadas
 
 - [std::io](https://doc.rust-lang.org/stable/std/io/)
 
 # Uso do programa
+
+_Antes de utilizar o programa, esteja ciente sobre as licensar presentes no projeto: [Apache 2.0](./LICENSE-APACHE) & [MIT](./LICENSE-MIT)_
+
 Clone o repositório na sua máquina `git clone [this-repo-url]`
 
 Entre no repositório (exemplo: `cd rs-irpf`) e execute o programa `cargo run`
