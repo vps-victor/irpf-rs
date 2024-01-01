@@ -4,8 +4,22 @@
 Calculadora simples para auxiliar no processo de Declaração (Anual) de Imposto de Renda Pessoa Física (DIRPF).
 
 IRPF segue o formato **simplificado**, empregando dedução padrão de sobre o total dos rendimentos tributáveis auferidos durante o ano de 2023.
+# Configuração Recomendada
 
-# Como é feito o cálculo do programa
+Rust: linguagem de programação de sistemas modernos conhecida por sua forte ênfase na segurança da memória e abstrações de custo zero.
+
+Cargo: Gerenciador de pacotes e ferramenta de construção do Rust, agilizando o processo de gerenciamento de dependências e construção de projetos com facilidade.
+
+# Dependências & Bibliotecas utilizadas
+
+- [std::io](https://doc.rust-lang.org/stable/std/io/)
+
+# Uso do programa
+Clone o repositório na sua máquina `git clone [this-repo-url]`
+
+Entre no repositório (exemplo: `cd rs-irpf`) e execute o programa `cargo run`
+
+# Cálculo do programa
 _As duas tabelas abaixo foram retiradas da fonte: https://www.gov.br/receitafederal/pt-br/assuntos/meu-imposto-de-renda/tabelas/2023_
 
 A partir de maio de 2023
@@ -46,6 +60,8 @@ Incidência anual: a partir do exercício 2024 (ano-calendário 2023).
 _Dedução anual por dependente: R$ 2.275,08
 Limite anual de despesa com instrução: R$ 3.561,50
 Limite anual de desconto simplificado: R$ 16.754,34_
+
+# Próximos passos
 
 # Outros projetos
 _Caso esteja procurando Imposto de Renda de Pessoa Jurídica (IRPJ): [Acesse (EM ANDAMENTO)]()_
