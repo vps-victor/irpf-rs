@@ -65,8 +65,8 @@ Limite anual de despesa com instrução: R$ 3.561,50
 Limite anual de desconto simplificado: R$ 16.754,34_
 
 # Próximos passos
-- [ ] Adicionar calculo de aliquota para Tributação (maio de 2023)
-
+- [x] Adicionar calculo de aliquota para Tributação 2024
+- [ ] Adicionar calculo de aliquota para 2023
 
 # Outros projetos
 _Caso esteja procurando Imposto de Renda de Pessoa Jurídica (IRPJ): [Acesse (EM ANDAMENTO)]()_
